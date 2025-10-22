@@ -11,9 +11,6 @@
   },
   "dependencies": {
     "@clerk/nextjs": "^6.33.7",
-    "@fortawesome/fontawesome-svg-core": "^7.1.0",
-    "@fortawesome/free-brands-svg-icons": "^7.1.0",
-    "@fortawesome/react-fontawesome": "^3.1.0",
     "@hookform/resolvers": "^5.2.2",
     "@prisma/client": "^6.17.1",
     "@prisma/extension-accelerate": "^2.0.2",
@@ -48,7 +45,6 @@
     "cmdk": "^1.1.1",
     "date-fns": "^4.1.0",
     "embla-carousel-react": "^8.6.0",
-    "font-awesome": "^4.7.0",
     "input-otp": "^1.4.2",
     "lucide-react": "^0.546.0",
     "next": "15.5.6",
