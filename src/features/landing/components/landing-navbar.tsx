@@ -1,4 +1,3 @@
-import {Clock2Icon, Menu} from "lucide-react";
 import {Button} from "@/components/ui/button";
 import {NavbarSheet} from "@/features/landing/components/navbar-sheet";
 import {AppLogo} from "@/components/app-logo";
