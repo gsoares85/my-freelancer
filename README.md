@@ -9,3 +9,4 @@
 7. Add Navbar ✅
 8. Add Landing Page ✅
 9. Add new sections to the landing page 
+10. Add Navbar to SignIn and SignUp
