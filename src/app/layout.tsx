@@ -28,11 +28,11 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <ClerkProvider afterSignOutUrl={"/"} signInFallbackRedirectUrl={"/dashboard"}>
             <div className="bg-white w-full h-screen flex items-center justify-center">
-                {children}
+                <ClerkProvider afterSignOutUrl={"/"} signInFallbackRedirectUrl={"/dashboard"}>
+                    {children}
+                </ClerkProvider>
             </div>
-        </ClerkProvider>
       </body>
     </html>
   );

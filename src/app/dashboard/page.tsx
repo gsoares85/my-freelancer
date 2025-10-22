@@ -1,8 +1,6 @@
 "use client"
 
-import {useUser} from "@clerk/nextjs";
-
-import {UserButton} from "@clerk/clerk-react";
+import {useUser, UserButton} from "@clerk/nextjs";
 
 const DashboardPage = () => {
     const {user} = useUser();
